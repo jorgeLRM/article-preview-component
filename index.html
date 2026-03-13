@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Article preview component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <section class="card">
+      <img src="./images/drawers.jpg" alt="Drawers" class="card__image" />
+
+      <div class="card__content">
+        <h1 class="card__title">
+          Shift the overall look and feel by adding these wonderful touches to
+          furniture in your home
+        </h1>
+        <p class="card__text">
+          Ever been in a room and felt like something was missing? Perhaps it
+          felt slightly bare and uninviting. I’ve got some simple tips to help
+          you make any room feel complete.
+        </p>
+      </div>
+
+      <footer class="card__footer">
+        <div class="card__author" id="card-author">
+          <img
+            src="./images/avatar-michelle.jpg"
+            alt="Michelle Avatar"
+            class="card__author-image"
+          />
+          <div class="card__author-info">
+            <p class="card__author-name">Michelle Appleton</p>
+            <p class="card__author-date">28 Jun 2020</p>
+          </div>
+        </div>
+
+        <div class="card__share" id="card-share">
+          <p class="card__share-text">Share</p>
+          <div class="card__share-list">
+            <a href="#" class="card__share-link" aria-label="Share on Facebook">
+              <img src="./images/icon-facebook.svg" alt="Facebook Icon" />
+            </a>
+            <a href="#" class="card__share-link" aria-label="Share on Twitter">
+              <img src="./images/icon-twitter.svg" alt="Twitter Icon" />
+            </a>
+            <a
+              href="#"
+              class="card__share-link"
+              aria-label="Share on Pinterest"
+            >
+              <img src="./images/icon-pinterest.svg" alt="Pinterest Icon" />
+            </a>
+          </div>
+        </div>
+
+        <button
+          class="card__share-button"
+          aria-label="Share article"
+          id="btn-share"
+        >
+          <img src="./images/icon-share.svg" alt="Share Icon" />
+        </button>
+      </footer>
+    </section>
+  </body>
+</html>
