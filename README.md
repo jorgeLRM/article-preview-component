@@ -27,8 +27,8 @@ This project challenged me to build a responsive article preview card component 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/jorgeLRM/article-preview-component](https://github.com/jorgeLRM/article-preview-component)
+- Live Site URL: [https://jorgelrm.github.io/article-preview-component/](https://jorgelrm.github.io/article-preview-component/)
 
 ## My process
 
